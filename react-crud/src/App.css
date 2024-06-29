@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-weight: 800;
+  }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url("https://www.elegantthemes.com/blog/wp-content/uploads/2019/12/continued-education-featured-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Individual div styling */
+.container div {
+    width: 290px;
+    height: 330px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: hwb(0 88% 8%);
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+    position: relative;
+}
+
+.container div:hover {
+    transform: scale(1.1);
+    
+}
+
+.pagination-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .pagination-container button {
+    padding: 10px 15px;
+    border: 2px solid #ccc5c5;
+    border-radius: 3px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .pagination-container button.active{
+    color: #fff;
+    background-color: green;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0974e7;
+    padding: 10px 0;
+    z-index: 1;
+  }
+
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #f9f8f8;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  .nav-links li a:hover {
+    background-color: #68a4e3;
+    transition: background-color 0.3s ease;
+  }
+  
+
+
+  /* Style for the update button */
+  .update-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(42, 202, 42);
+    color: #fff;
+    width:inherit;
+  }
+  
+  /* Style for the delete button */
+  .delete-button {
+    padding: 10px 20px;
+    border: none;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:rgb(237, 39, 39);
+    color: #fff;
+    width:inherit;
+  }
+  
+span{
+  color: blue;
+}
+
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input[type="text"],input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.message {
+  color: #007BFF;
+  text-align: center;
+  margin-top: 10px;
+}
